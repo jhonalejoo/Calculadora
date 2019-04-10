@@ -1,0 +1,47 @@
+.principal{
+	padding:10px 10px 10px 20px;
+	background-color:#20B2AA;
+	box-shadow: 10px 10px 5px 0px #999999;
+    border-radius: 40px;
+    width: 250px;
+    margin: 10px auto;
+}
+.ContenButton{
+    margin: 2px;  
+}
+.boton{
+    background-color: #555555;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius:8px; 
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    width: 50px;
+}
+.botonigual{
+    background-color: #555555;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius:8px; 
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    width: 210px; 
+}
+h1{
+	text-align:center;
+}
+.entrada{
+    width: 200px;
+    font-size:35px;
+    padding: 5px;
+    margin-top:10px; 
+    border-radius: 10px; 
+}
