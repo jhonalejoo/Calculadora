@@ -10,12 +10,13 @@ class Background extends Component{
         this.Refsum=React.createRef();
         this.state={
             number:"",
-            StateButton:false
+            StateButton:true
         }
     }
     clean=() =>{
         this.setState({
-            number:""
+            number:"",
+            StateButton:true
         });
     }
     PrintScreen =(ValueNumber) =>{
