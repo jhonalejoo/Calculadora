@@ -43,13 +43,15 @@ class Background extends Component{
         }
         }
     }
-    operaciones =() =>{
+     operaciones =() =>{
+        try{
         let intNumero="0"; 
         intNumero=this.RefResult.current.value;
         let result = eval(intNumero);
-        this.setState({
-            number:result
-        });
+        this.setState({number:result});
+        }catch(e){
+            this.setState({number:"Error"});
+    }
      }
     render(){
     return(
